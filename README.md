@@ -13,7 +13,9 @@
 Для этой задачи вам понадобится использовать атрибут .text для найденного элемента. Обратите внимание, что скобки здесь не нужны:
 
 x_element = browser.find_element(By.CSS_SELECTOR, selector_value)
+
 x = x_element.text
+
 y = calc(x)
 
                   
